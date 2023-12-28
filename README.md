@@ -47,8 +47,3 @@ This project is licensed under the [MIT License](LICENSE).
 For any questions or feedback, please contact:
 
 - Email: jumalleydev@gmail.com
-
-## Acknowledgements
-
-- Mention any libraries or resources you used in your project.
-- Give credit to anyone whose code or ideas you used.
