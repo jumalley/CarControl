@@ -1,9 +1,5 @@
-Certainly! Creating a README for your GitHub page is a great way to provide information about your project and help others understand its purpose, how to use it, and how to contribute. Below is a template you can use for your README. Make sure to replace the placeholder text with the relevant information for your project.
-
 ```markdown
 # Car Control App
-
-![Project Logo](link/to/your/logo.png) <!-- Add a logo or image if you have one -->
 
 ## Overview
 
@@ -18,7 +14,7 @@ The Car Control App is a web-based application for controlling various features 
 
 ## Demo
 
-Add a link or GIF that demonstrates the usage of your application.
+Coming soon.
 
 ## Installation
 
@@ -53,9 +49,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 For any questions or feedback, please contact:
 
-- Your Name
-- Email: your.email@example.com
-- Twitter: [@yourtwitterhandle](https://twitter.com/yourtwitterhandle)
+- Email: jumalleydev@gmail.com
 
 ## Acknowledgements
 
@@ -63,5 +57,3 @@ For any questions or feedback, please contact:
 - Give credit to anyone whose code or ideas you used.
 
 ```
-
-Feel free to customize the sections based on your project's needs. If your project has specific requirements or features, make sure to highlight them in the README. Also, consider adding badges, screenshots, or other visuals to make your README more appealing and informative.
