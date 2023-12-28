@@ -20,9 +20,7 @@ Coming soon.
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/yourusername/car-control-app.git
-   ```
+`git clone https://github.com/yourusername/car-control-app.git`
 
 2. Open `index.html` in your web browser.
 
