@@ -1,4 +1,3 @@
-```markdown
 # Car Control App
 
 ## Overview
@@ -53,5 +52,3 @@ For any questions or feedback, please contact:
 
 - Mention any libraries or resources you used in your project.
 - Give credit to anyone whose code or ideas you used.
-
-```
