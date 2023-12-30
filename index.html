@@ -308,14 +308,6 @@
     homeBar.style.display = 'none';
   }
 
-  // Function to handle impact on a door
-  function impactOnDoor(doorType) {
-    // Add logic for impact on the selected door
-    console.log('Impact on ' + doorType);
-    // Call your Lua function for door impact here
-    // For example: impactOnDoorLua(doorType);
-  }
-
   // Function to show window buttons
   function showWindowButtons() {
     var doorsButtons = document.getElementById('doorsButtons');
@@ -329,15 +321,7 @@
     seatsButtons.style.display = 'none';
     homeBar.style.display = 'none';
   }
-
-  // Function to handle impact on a window
-  function impactOnWindow(windowType) {
-    // Add logic for impact on the selected window
-    console.log('Impact on ' + windowType);
-    // Call your Lua function for window impact here
-    // For example: impactOnWindowLua(windowType);
-  }
-
+  
   // Function to show seat buttons
   function showSeatButtons() {
     var doorsButtons = document.getElementById('doorsButtons');
@@ -350,14 +334,6 @@
     windowsButtons.style.display = 'none';
     seatsButtons.style.display = 'block';
     homeBar.style.display = 'none';
-  }
-
-  // Function to handle impact on a seat
-  function impactOnSeat(seatType) {
-    // Add logic for impact on the selected seat
-    console.log('Impact on ' + seatType);
-    // Call your Lua function for seat impact here
-    // For example: impactOnSeatLua(seatType);
   }
 
   // Function to go back to the home view
@@ -374,6 +350,24 @@
     seatsButtons.style.display = 'none';
     homeBar.style.display = 'none';
   }
+
+  function impactOnDoor(doorType) {
+    // Send NUI callback to Lua
+    $.post('http://qs-vehiclekeysapp/doorToggle', JSON.stringify({ door: doorType }));
+  }
+
+  // Function to handle impact on a window
+  function impactOnWindow(windowType) {
+    // Send NUI callback to Lua
+    $.post('http://qs-vehiclekeysapp/windowToggle', JSON.stringify({ window: windowType }));
+  }
+
+  // Function to handle impact on a seat
+  function impactOnSeat(seatType) {
+    // Send NUI callback to Lua
+    $.post('http://qs-vehiclekeysapp/changeSeat', JSON.stringify({ seat: seatType }));
+  }
+  
 </script>
 
 </body>
