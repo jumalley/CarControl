@@ -359,7 +359,7 @@
   // Function to handle impact on a window
   function impactOnWindow(windowType) {
     // Send NUI callback to Lua
-    $.post('http://qs-vehiclekeysapp/windowToggle', JSON.stringify({ window: windowType }));
+    $.post('http://qs-vehiclekeysapp/windowToggle', JSON.stringify({ window: windowType, door: /* specify the door here */ }));
   }
 
   // Function to handle impact on a seat
